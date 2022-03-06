@@ -122,41 +122,6 @@ a {
   }
   h4 {
     color: #ffffff;
-    font-size: 24px;
-    font-weight: 200;
-  }
-  h1 {
-    color: #ffb800;
-    font-family: "Kristi", cursive;
-    font-size: 52px;
-  }
-  h2 {
-    color: black;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  h3 {
-    color: white;
-    font-size: 16px;
-    font-weight: 200;
-  }
-  .get-started {
-    background: black;
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    padding: 15px 40px;
-    border-radius: 10px;
-    transition: all 200ms ease-in-out;
-  }
-}
-@media (max-width: 250px) {
-  .welcome {
-    margin: 30px 5px;
-    padding: 15px 30px;
-  }
-  h4 {
-    color: #ffffff;
     font-size: 18px;
     font-weight: 200;
   }
@@ -176,12 +141,7 @@ a {
     font-weight: 200;
   }
   .get-started {
-    background: black;
-    color: white;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
     padding: 15px 40px;
-    border-radius: 10px;
-    transition: all 200ms ease-in-out;
   }
 }
