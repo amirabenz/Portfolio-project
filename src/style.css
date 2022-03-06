@@ -1,24 +1,89 @@
 body {
-  background-image: url("/media/me-painting.jpg");
+  background-image: url("/media/me-painting.png");
   background-size: cover;
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
-.container-fluid {
+h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 200;
+}
+h1 {
+  color: #ffb800;
+  font-family: "Kristi", cursive;
+  font-size: 82px;
+}
+h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+}
+h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+}
+a {
+  text-decoration: none;
+}
+.content {
   padding: 0;
 }
-.navbar {
-  height: 42px;
+.bg-dark {
+  --bs-bg-opacity: 0.5;
 }
-.navbar-brand {
-  color: white;
-  font-family: "Kristi", cursive;
-  font-size: 46px;
-  margin-left: 100px;
+.navbar {
 }
 .navbar-nav {
-  margin-left: 340px;
+  margin-left: 100px;
 }
 .nav-link {
+  font-weight: 200;
+}
+.logo {
+  width: 100px;
+  margin-left: 50px;
+}
+
+.welcome {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 50px 200px;
+  margin-top: 100px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.get-started {
+  background: black;
+  color: white;
+  font-size: 24px;
   font-weight: 300;
+  padding: 20px 50px;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+.get-started:hover {
+  color: black;
+  background-color: #ffb800;
+  font-weight: 500;
+}
+#contact {
+  margin-top: 123px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+}
+
+.social-media {
+  margin: 0 30px;
+}
+@media (max-width: 992px) {
+  .navbar-brand {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
 }
