@@ -30,6 +30,24 @@ h3 {
 a {
   text-decoration: none;
 }
+p {
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  margin: 20px;
+}
+.infos {
+  margin: 150px 0;
+}
+.biography {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.painter-photo {
+  border-radius: 10px;
+  width: 60%;
+}
+
 .content {
   padding: 0;
 }
@@ -52,12 +70,12 @@ a {
 .welcome {
   background-color: rgba(0, 0, 0, 0.4);
   margin: 50px 200px;
-  margin-top: 60px;
+  margin-top: 100px;
   padding: 30px;
   border-radius: 10px;
 }
 
-.get-started {
+.primary-button {
   background: black;
   color: white;
   font-size: 24px;
@@ -66,13 +84,29 @@ a {
   border-radius: 10px;
   transition: all 200ms ease-in-out;
 }
-.get-started:hover {
+.primary-button:hover {
   color: black;
   background-color: #ffb800;
   font-weight: 500;
 }
 
 @media (max-width: 992px) {
+  .infos {
+    margin: 70px 0px;
+  }
+  .about-heading {
+    color: #ffb800;
+    font-family: "Kristi", cursive;
+    font-size: 48px;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .check-button {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
   .navbar-brand {
     display: block;
     margin: 0 auto;
@@ -88,6 +122,43 @@ a {
 @media (min-height: 992px) {
   .welcome {
     margin-top: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .about-heading {
+    color: #ffb800;
+    font-family: "Kristi", cursive;
+    font-size: 48px;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .check-button {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .about-heading {
+    color: #ffb800;
+    font-family: "Kristi", cursive;
+    font-size: 42px;
+  }
+  .biography {
+    padding-bottom: 40px;
+    margin: 15px 0;
+  }
+  .painter-photo {
+    width: 50%;
+  }
+  p {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .check-button {
+    font-size: 16px;
+    padding: 15px 10px;
   }
 }
 @media (max-width: 576px) {
@@ -116,6 +187,26 @@ a {
   }
 }
 @media (max-width: 300px) {
+  .about-heading {
+    color: #ffb800;
+    font-family: "Kristi", cursive;
+    font-size: 32px;
+  }
+  .biography {
+    padding-bottom: 40px;
+    margin: 15px 0;
+  }
+  .painter-photo {
+    width: 50%;
+  }
+  p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .check-button {
+    font-size: 14px;
+    padding: 15px 5px;
+  }
   .welcome {
     margin: 30px 5px;
     padding: 15px 30px;
@@ -140,8 +231,30 @@ a {
     font-size: 14px;
     font-weight: 200;
   }
-  .get-started {
+  .primary-button {
     font-size: 18px;
     padding: 15px 40px;
+  }
+}
+@media (max-width: 257px) {
+  .about-heading {
+    color: #ffb800;
+    font-family: "Kristi", cursive;
+    font-size: 32px;
+  }
+  .biography {
+    padding-bottom: 40px;
+    margin: 15px 0;
+  }
+  .painter-photo {
+    width: 50%;
+  }
+  p {
+    font-size: 12px;
+    margin-top: 0;
+  }
+  .check-button {
+    font-size: 12px;
+    padding: 15px 5px;
   }
 }
