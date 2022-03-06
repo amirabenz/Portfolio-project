@@ -53,7 +53,7 @@ p {
   padding: 0;
 }
 .bg-dark {
-  --bs-bg-opacity: 0.5;
+  --bs-bg-opacity: 0.9;
 }
 .navbar {
 }
@@ -61,7 +61,7 @@ p {
   margin-left: 100px;
 }
 .nav-link {
-  font-weight: 200;
+  font-weight: 300;
 }
 .logo {
   width: 100px;
