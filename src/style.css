@@ -182,6 +182,9 @@ hr {
   .social-network {
     margin: 100px 350px;
   }
+  .content {
+    margin-top: 80px;
+  }
 }
 @media (max-width: 1180px) {
   .painting-title {
@@ -484,6 +487,9 @@ hr {
   .social-network {
     margin: 40px 40px;
   }
+  .content {
+    margin-top: 80px;
+  }
 }
 @media (max-width: 257px) {
   .about-heading {
@@ -512,5 +518,8 @@ hr {
   }
   .social-network {
     margin: 20px 10px;
+  }
+  .content {
+    margin-top: 100px;
   }
 }
