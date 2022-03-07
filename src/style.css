@@ -354,7 +354,7 @@ footer {
     margin: 0 5px;
   }
   .painting-title {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .painting {
     width: 150px;
@@ -407,6 +407,7 @@ footer {
   .painting-title {
     font-size: 22px;
     line-height: 20px;
+    margin-top: 20px;
   }
   .materials {
     font-size: 10px;
@@ -447,6 +448,7 @@ footer {
     font-size: 8px;
   }
   hr {
+    margin-top: 5px;
     margin-bottom: 5px;
   }
   .purchase-button {
