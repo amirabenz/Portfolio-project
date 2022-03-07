@@ -48,6 +48,7 @@ hr {
 }
 .active {
   font-weight: 400 !important;
+  color: #ffb800 !important;
 }
 .infos {
   margin-top: 150px;
@@ -77,6 +78,9 @@ hr {
 }
 .nav-link {
   font-weight: 300;
+}
+.nav-link:hover {
+  color: #ffb800 !important;
 }
 .logo {
   width: 100px;
