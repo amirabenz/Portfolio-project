@@ -35,14 +35,25 @@ p {
   color: white;
   font-weight: 300;
   margin: 20px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 hr {
   height: 2px;
   opacity: 1;
   margin-bottom: 40px;
 }
-
+footer {
+  font-size: 10px;
+  margin-top: 45px;
+}
+.coder {
+  color: #ffb800;
+  font-weight: 300;
+}
+.coder:hover {
+  color: #ffb800;
+  font-weight: 500;
+}
 .content {
   margin: 0 auto;
 }
@@ -51,7 +62,7 @@ hr {
   color: #ffb800 !important;
 }
 .infos {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 .biography {
@@ -60,7 +71,7 @@ hr {
 }
 .painter-photo {
   border-radius: 10px;
-  width: 65%;
+  width: 50%;
 }
 .picture {
   padding: 0;
@@ -182,9 +193,6 @@ hr {
   .social-network {
     margin: 100px 350px;
   }
-  .content {
-    margin-top: 80px;
-  }
 }
 
 @media (max-width: 1180px) {
@@ -200,6 +208,9 @@ hr {
   }
   .social-network {
     margin: 100px 330px;
+  }
+  p {
+    font-size: 18px;
   }
 }
 @media (max-width: 1050px) {
@@ -226,6 +237,9 @@ hr {
   }
 }
 @media (max-width: 992px) {
+  .content-home {
+    margin-top: 80px;
+  }
   .biography {
     padding-bottom: 40px;
     margin: 15px 0;
@@ -286,6 +300,9 @@ hr {
   }
 }
 @media (max-width: 768px) {
+  footer {
+    display: none;
+  }
   .container-artwork {
     margin: 0 40px;
   }
@@ -310,8 +327,7 @@ hr {
     font-family: "Kristi", cursive;
     font-size: 42px;
   }
-  .biography {
-  }
+
   .painter-photo {
     width: 50%;
   }
@@ -488,7 +504,7 @@ hr {
   .social-network {
     margin: 40px 40px;
   }
-  .content {
+  .content-home {
     margin-top: 80px;
   }
 }
@@ -520,7 +536,7 @@ hr {
   .social-network {
     margin: 20px 10px;
   }
-  .content {
+  .content-home {
     margin-top: 100px;
   }
 }
