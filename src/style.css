@@ -55,8 +55,7 @@ p {
 .bg-dark {
   --bs-bg-opacity: 0.9;
 }
-.navbar {
-}
+
 .navbar-nav {
   margin-left: 100px;
 }
@@ -92,7 +91,7 @@ p {
 }
 
 .title {
-  margin: 0 550px;
+  margin: 0 350px;
   margin-top: 100px;
   color: #ffffff;
   font-size: 52px;
@@ -108,15 +107,16 @@ p {
   color: black;
 }
 .container-artwork {
-  margin: 30px 300px;
+  margin: 0 200px;
 }
 .details {
-  color: black;
+  color: white;
 }
 .painting-title {
-  margin-top: 30px;
+  margin-top: 100px;
   font-family: "Kristi", cursive;
   font-size: 52px;
+  line-height: 35px;
 }
 .materials {
   font-weight: 300;
@@ -129,8 +129,14 @@ p {
 }
 .painting {
   border-radius: 10px;
+  margin: 20px 0;
 }
+
 @media (max-width: 1200px) {
+  .title {
+    margin: 0 200px;
+    margin-top: 100px;
+  }
   .about-heading {
     color: #ffb800;
     font-family: "Kristi", cursive;
@@ -140,7 +146,45 @@ p {
     margin-top: 0;
   }
 }
+@media (max-width: 1180px) {
+  .painting-title {
+    font-size: 50px;
+  }
+  .materials {
+    font-size: 16px;
+  }
+  .title {
+    margin: 0 180px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1050px) {
+  .container-artwork {
+    margin: 0 180px;
+  }
+  .painting-title {
+    font-size: 42px;
+    margin-top: 70px;
+  }
+  .materials {
+    font-size: 14px;
+  }
+  .painting {
+    width: 275px;
+    margin: 20px 0;
+  }
+  .title {
+    margin: 0 170px;
+    margin-top: 100px;
+  }
+}
 @media (max-width: 992px) {
+  .painting {
+    width: 250px;
+  }
+  .container-artwork {
+    margin: 0 120px;
+  }
   .about-heading {
     color: #ffb800;
     font-family: "Kristi", cursive;
@@ -165,6 +209,17 @@ p {
   .welcome {
     margin: 60px 30px;
   }
+  .purchase-button {
+    font-size: 20px;
+    padding: 10px 40px;
+  }
+  .painting-title {
+    margin-top: 70px;
+  }
+  .title {
+    margin: 0 160px;
+    margin-top: 80px;
+  }
 }
 @media (min-height: 992px) {
   .welcome {
@@ -172,10 +227,15 @@ p {
   }
 }
 @media (max-width: 768px) {
-  .about-heading {
-    color: #ffb800;
-    font-family: "Kristi", cursive;
-    font-size: 48px;
+  .container-artwork {
+    margin: 0 40px;
+  }
+  .painting-title {
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  .materials {
+    font-size: 14px;
   }
   p {
     font-size: 14px;
@@ -185,8 +245,6 @@ p {
     font-size: 14px;
     padding: 15px 20px;
   }
-}
-@media (max-width: 768px) {
   .about-heading {
     color: #ffb800;
     font-family: "Kristi", cursive;
@@ -199,16 +257,39 @@ p {
   .painter-photo {
     width: 50%;
   }
-  p {
-    font-size: 14px;
-    margin-top: 0;
+  .painting {
+    width: 200px;
+    margin: 20px 0;
   }
-  .check-button {
-    font-size: 16px;
-    padding: 15px 10px;
+  .title {
+    font-size: 48px;
+    margin: 0 140px;
+    margin-top: 80px;
+    line-height: 25px;
+  }
+  .painter-name {
+    font-size: 18px;
   }
 }
+
 @media (max-width: 576px) {
+  .container-artwork {
+    margin: 0 5px;
+  }
+  .painting-title {
+    margin-top: 20px;
+  }
+  .painting {
+    width: 150px;
+    margin: 10px 0;
+  }
+  .purchase-button {
+    font-size: 14px;
+    padding: 10px 30px;
+  }
+  .materials {
+    margin-bottom: 20px;
+  }
   .welcome {
     margin: 60px 30px;
   }
@@ -232,8 +313,57 @@ p {
     font-size: 16px;
     font-weight: 200;
   }
+  .title {
+    margin: 0 100px;
+    margin-top: 80px;
+  }
+}
+@media (max-width: 450px) {
+  .painting {
+    width: 120px;
+  }
+  .painting-title {
+    font-size: 22px;
+    line-height: 20px;
+  }
+  .materials {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .purchase-button {
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+  .title {
+    font-size: 40px;
+    margin: 0 70px;
+    margin-top: 80px;
+  }
+  .painter-name {
+    font-size: 14px;
+  }
 }
 @media (max-width: 300px) {
+  .start-button {
+    font-size: 18px;
+    padding: 15px 40px;
+  }
+  .painting {
+    width: 100px;
+  }
+  .painting-title {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .materials {
+    font-size: 8px;
+    margin-bottom: 5px;
+  }
+  .purchase-button {
+    font-size: 10px;
+    padding: 5px 5pxpx;
+  }
   .about-heading {
     color: #ffb800;
     font-family: "Kristi", cursive;
@@ -278,9 +408,9 @@ p {
     font-size: 14px;
     font-weight: 200;
   }
-  .primary-button {
-    font-size: 18px;
-    padding: 15px 40px;
+  .title {
+    margin: 0 50px;
+    margin-top: 70px;
   }
 }
 @media (max-width: 257px) {
@@ -303,5 +433,9 @@ p {
   .check-button {
     font-size: 12px;
     padding: 15px 5px;
+  }
+  .title {
+    margin: 0 20px;
+    margin-top: 70px;
   }
 }
