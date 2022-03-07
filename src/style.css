@@ -40,6 +40,7 @@ p {
 hr {
   height: 2px;
   opacity: 1;
+  margin-bottom: 40px;
 }
 
 .content {
@@ -130,12 +131,11 @@ hr {
   margin-top: 100px;
   font-family: "Kristi", cursive;
   font-size: 68px;
-  line-height: 50px;
+  line-height: 35px;
 }
 .materials {
   font-weight: 300;
   font-size: 18px;
-  margin-bottom: 30px;
 }
 .purchase-button {
   font-size: 20px;
@@ -340,7 +340,7 @@ hr {
     font-size: 14px;
     padding: 10px 30px;
   }
-  .materials {
+  hr {
     margin-bottom: 20px;
   }
   .welcome {
@@ -386,6 +386,8 @@ hr {
   }
   .materials {
     font-size: 10px;
+  }
+  hr {
     margin-bottom: 15px;
   }
   .purchase-button {
@@ -419,6 +421,8 @@ hr {
 
   .materials {
     font-size: 8px;
+  }
+  hr {
     margin-bottom: 5px;
   }
   .purchase-button {
