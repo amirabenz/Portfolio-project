@@ -37,7 +37,9 @@ p {
   margin: 20px;
   margin-bottom: 80px;
 }
-
+.content {
+  margin: 0 auto;
+}
 .active {
   font-weight: 400 !important;
 }
@@ -53,7 +55,10 @@ p {
   border-radius: 10px;
   width: 65%;
 }
-
+.picture {
+  padding: 0;
+  margin-left: 0;
+}
 .content {
   padding: 0;
 }
