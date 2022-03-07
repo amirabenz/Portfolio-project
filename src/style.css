@@ -35,6 +35,11 @@ p {
   color: white;
   font-weight: 300;
   margin: 20px;
+  margin-bottom: 60px;
+}
+
+.active {
+  font-weight: 400 !important;
 }
 .infos {
   margin-top: 150px;
@@ -158,6 +163,7 @@ p {
   }
   p {
     margin-top: 0;
+    margin-bottom: 50px;
   }
   .social-network {
     margin: 100px 350px;
@@ -216,6 +222,7 @@ p {
   p {
     font-size: 14px;
     margin-top: 0;
+    margin-bottom: 40px;
   }
   .check-button {
     font-size: 14px;
@@ -266,6 +273,7 @@ p {
   p {
     font-size: 14px;
     margin-top: 0;
+    margin-bottom: 30px;
   }
   .check-button {
     font-size: 14px;
