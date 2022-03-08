@@ -27,6 +27,12 @@ h3 {
   font-size: 20px;
   font-weight: 300;
 }
+hr,
+hr:not([size]) {
+  height: 1px;
+  opacity: 1;
+  margin-bottom: 40px;
+}
 a {
   text-decoration: none;
 }
@@ -37,11 +43,7 @@ p {
   margin: 20px;
   margin-bottom: 50px;
 }
-hr {
-  height: 2px;
-  opacity: 1;
-  margin-bottom: 40px;
-}
+
 footer {
   font-size: 10px;
   margin-top: 45px;
@@ -432,6 +434,10 @@ footer {
   }
 }
 @media (max-width: 300px) {
+  hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
   .start-button {
     font-size: 18px;
     padding: 15px 40px;
@@ -446,13 +452,6 @@ footer {
 
   .materials {
     font-size: 8px;
-  }
-
-  hr {
-    opacity: 1;
-    margin-bottom: 40px;
-    height: 0px !important;
-    border-top: 1px solid white;
   }
 
   .purchase-button {
@@ -531,6 +530,11 @@ footer {
     font-size: 12px;
     margin-top: 0;
   }
+  hr {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
   .check-button {
     font-size: 12px;
     padding: 15px 5px;
