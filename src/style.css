@@ -27,11 +27,10 @@ h3 {
   font-size: 20px;
   font-weight: 300;
 }
-hr,
-hr:not([size]) {
+hr {
   height: 1px;
   opacity: 1;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 a {
   text-decoration: none;
@@ -350,6 +349,9 @@ footer {
   .social-network {
     margin: 60px 150px;
   }
+  hr {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -368,7 +370,7 @@ footer {
     padding: 10px 30px;
   }
   hr {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .welcome {
     margin: 60px 30px;
@@ -416,7 +418,7 @@ footer {
     font-size: 10px;
   }
   hr {
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
   .purchase-button {
     font-size: 14px;
@@ -436,8 +438,8 @@ footer {
 }
 @media (max-width: 300px) {
   hr {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-bottom: 3px;
   }
   .start-button {
     font-size: 18px;
@@ -530,10 +532,6 @@ footer {
   p {
     font-size: 12px;
     margin-top: 0;
-  }
-  hr {
-    margin-top: 2px;
-    margin-bottom: 2px;
   }
 
   .check-button {
