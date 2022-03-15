@@ -241,6 +241,7 @@ footer {
 @media (max-width: 992px) {
   .content-home {
     margin-top: 80px;
+    margin-bottom: 40px;
   }
   .biography {
     padding-bottom: 40px;
